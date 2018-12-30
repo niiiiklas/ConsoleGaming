@@ -10,9 +10,26 @@ namespace ConsoleEngine.Engine
     {
         public IGrid grid { get; set; }
 
-        public void Render()
+        public void RenderTest()
         {
             grid.Render();
+        }
+
+        public void Start()
+        {
+
+            while(true)
+            {
+                grid.Render();
+
+                Input();
+            }
+        }
+
+        public void Input()
+        {
+            var inp = Console.Read();
+            Console.WriteLine("In: " + inp);
         }
     }
 }

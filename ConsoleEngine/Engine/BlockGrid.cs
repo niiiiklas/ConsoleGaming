@@ -40,28 +40,7 @@ namespace ConsoleEngine.Engine
 
     public static class BlockGridFactory
     {
-        public static BlockGrid Variant1()
-        {
-            int w = 32;
-            int h = 16;
-
-            var bg = new BlockGrid(w, h);
-
-            for(int x = 0; x < w; x++)
-            {
-                for(int y= 0; y < h; y++)
-                {
-                    ConsoleColor ccc = ConsoleUtil.ConsoleColorRng.Any();
-                    bg.Blocks.Add(new Block()
-                    {
-                        Pos = new GridPosition(x, y),
-                        Chars = Var2Chars(ccc),
-                        WH = new WiHe(3,2)
-                    });
-                }
-            }
-            return bg;
-        }
+       
 
         public static ColorChar[] Var1Chars(bool isRed)
         {

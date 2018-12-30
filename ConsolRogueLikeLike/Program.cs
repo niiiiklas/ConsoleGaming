@@ -16,7 +16,6 @@ namespace ConsolRogueLikeLike
 
             //Console.ReadLine();
 
-            TestBlocky1();
 
             //var m = new ConsoleEngine.Engine.MainBuilder()
             //    //.MapInit(20, 20, ConsoleColor.Red)
@@ -28,16 +27,18 @@ namespace ConsolRogueLikeLike
             Console.ReadLine();
         }
 
-        private static void TestBlocky1()
-        {
-            Console.ReadLine();
+        //private static void TestBlocky1()
+        //{
+        //    Console.ReadLine();
 
-            var m = new ConsoleEngine.Engine.Main()
-            {
-                grid = BlockGridFactory.Variant1(),
-            };
+        //    var m = new ConsoleEngine.Engine.Main()
+        //    {
+        //        grid = BlockGridFactory.Variant1(),
+        //    };
 
-            m.Render();
-        }
+        //    m.RenderTest();
+
+        //    m.Start();
+        //}
     }
 }

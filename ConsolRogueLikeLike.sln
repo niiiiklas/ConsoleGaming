@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsolRogueLikeLike", "ConsolRogueLikeLike\ConsolRogueLikeLike.csproj", "{335053BE-6629-4D95-A20C-28898E63F2F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsolRogueLikeLike", "ConsolRogueLikeLike\ConsolRogueLikeLike.csproj", "{335053BE-6629-4D95-A20C-28898E63F2F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEngine", "ConsoleEngine\ConsoleEngine.csproj", "{FF5C39ED-6714-4FB1-A342-47A072129911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleEngine", "ConsoleEngine\ConsoleEngine.csproj", "{FF5C39ED-6714-4FB1-A342-47A072129911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeTest1", "SnakeTest1\SnakeTest1.csproj", "{6B9A583A-A1F8-498C-9117-E6885D358A6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{FF5C39ED-6714-4FB1-A342-47A072129911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF5C39ED-6714-4FB1-A342-47A072129911}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF5C39ED-6714-4FB1-A342-47A072129911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9A583A-A1F8-498C-9117-E6885D358A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9A583A-A1F8-498C-9117-E6885D358A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9A583A-A1F8-498C-9117-E6885D358A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9A583A-A1F8-498C-9117-E6885D358A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

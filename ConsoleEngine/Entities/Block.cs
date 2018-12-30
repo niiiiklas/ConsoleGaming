@@ -14,12 +14,24 @@ namespace ConsoleEngine.Entities
 
         public static Block Create(int posX, int posY, int width, int height)
         {
-            return new Block()
-            {
-                Pos = new GridPosition(posX, posY),
-                Chars = new ColorChar[width * height],
-                WH = new WiHe(width, height),
-            };
+            return new Block(posX, posY, width, height);
+        }
+
+        public Block(int posX, int posY, int width, int height)
+        {
+            Pos = new GridPosition(posX, posY);
+            Chars = new ColorChar[width * height];
+            WH = new WiHe(width, height);
+        }
+
+        public void SetAllChars(char c, ConsoleColor col)
+        {
+            for (int i = 0; i < Chars.Length; i++)
+                Chars[i] = new ColorChar()
+                {
+                    Character = c,
+                    Color = col
+                };
         }
     }
 }
